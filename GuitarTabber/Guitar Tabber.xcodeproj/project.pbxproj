@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042D52EEB25B1BE0E56855ED /* Pods_Guitar_Tabber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F367E12AD3BE5D6C1332CA0B /* Pods_Guitar_Tabber.framework */; };
+		4919B2431DA795C200CF9978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919B2421DA795C200CF9978 /* AppDelegate.swift */; };
+		4919B2451DA795C200CF9978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919B2441DA795C200CF9978 /* ViewController.swift */; };
+		4919B2481DA795C200CF9978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4919B2461DA795C200CF9978 /* Main.storyboard */; };
+		4919B24A1DA795C200CF9978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4919B2491DA795C200CF9978 /* Assets.xcassets */; };
+		4919B24D1DA795C200CF9978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4919B24B1DA795C200CF9978 /* LaunchScreen.storyboard */; };
+		494298031DBE452200722340 /* Song_Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494298021DBE452200722340 /* Song_Page.swift */; };
+		49CE402D1DAB603B001E7425 /* GuitarTuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE402B1DAB603B001E7425 /* GuitarTuner.swift */; };
+		49CE402E1DAB603B001E7425 /* RawNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE402C1DAB603B001E7425 /* RawNote.swift */; };
+		49CE40341DAB8991001E7425 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE40331DAB8991001E7425 /* TableViewController.swift */; };
+		49CE40361DAB9B36001E7425 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE40351DAB9B36001E7425 /* TableViewCell.swift */; };
+		49FCDE091DBB91E400D70B6E /* NoteRecogniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCDE071DBB91E400D70B6E /* NoteRecogniser.swift */; };
+		49FCDE0A1DBB91E400D70B6E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCDE081DBB91E400D70B6E /* Song.swift */; };
+		CD0370881DD56F60003585C4 /* Guitar_Tabber_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0370871DD56F60003585C4 /* Guitar_Tabber_Tests.swift */; };
+		CD0370901DD56F8B003585C4 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03708F1DD56F8B003585C4 /* SongTests.swift */; };
+		CD8C57F61DD49440003EBBA5 /* RecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C57F51DD49440003EBBA5 /* RecorderController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD03708A1DD56F60003585C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4919B2371DA795C200CF9978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4919B23E1DA795C200CF9978;
+			remoteInfo = "Guitar Tabber";
+		};
+		CD7960101DDC61FE00D4D109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4919B2371DA795C200CF9978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4919B23E1DA795C200CF9978;
+			remoteInfo = "Guitar Tabber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4919B23F1DA795C200CF9978 /* Guitar Tabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Tabber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4919B2421DA795C200CF9978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4919B2441DA795C200CF9978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4919B2471DA795C200CF9978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4919B2491DA795C200CF9978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4919B24C1DA795C200CF9978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4919B24E1DA795C200CF9978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494298021DBE452200722340 /* Song_Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song_Page.swift; sourceTree = "<group>"; };
+		49CE402B1DAB603B001E7425 /* GuitarTuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarTuner.swift; sourceTree = "<group>"; };
+		49CE402C1DAB603B001E7425 /* RawNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawNote.swift; sourceTree = "<group>"; };
+		49CE40331DAB8991001E7425 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		49CE40351DAB9B36001E7425 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		49FCDE071DBB91E400D70B6E /* NoteRecogniser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteRecogniser.swift; sourceTree = "<group>"; };
+		49FCDE081DBB91E400D70B6E /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C5CAB7FD703F868DB1E2C7C4 /* Pods-Guitar Tabber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar Tabber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar Tabber/Pods-Guitar Tabber.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0370851DD56F60003585C4 /* Guitar Tabber Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar Tabber Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0370871DD56F60003585C4 /* Guitar_Tabber_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_Tabber_Tests.swift; sourceTree = "<group>"; };
+		CD0370891DD56F60003585C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD03708F1DD56F8B003585C4 /* SongTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTests.swift; sourceTree = "<group>"; };
+		CD0370991DD5E946003585C4 /* Guitar TabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar TabberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C57F51DD49440003EBBA5 /* RecorderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderController.swift; sourceTree = "<group>"; };
+		EBB76213AB1C3921D506AF08 /* Pods-Guitar Tabber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitar Tabber.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guitar Tabber/Pods-Guitar Tabber.release.xcconfig"; sourceTree = "<group>"; };
+		F367E12AD3BE5D6C1332CA0B /* Pods_Guitar_Tabber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitar_Tabber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4919B23C1DA795C200CF9978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042D52EEB25B1BE0E56855ED /* Pods_Guitar_Tabber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0370821DD56F60003585C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0370961DD5E946003585C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068AA199ADD6BB6CD6F11595 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAB7FD703F868DB1E2C7C4 /* Pods-Guitar Tabber.debug.xcconfig */,
+				EBB76213AB1C3921D506AF08 /* Pods-Guitar Tabber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4919B2361DA795C200CF9978 = {
+			isa = PBXGroup;
+			children = (
+				4919B2411DA795C200CF9978 /* Guitar Tabber */,
+				CD0370861DD56F60003585C4 /* Guitar Tabber Tests */,
+				4919B2401DA795C200CF9978 /* Products */,
+				068AA199ADD6BB6CD6F11595 /* Pods */,
+				D363061A686F09B94FAAFC63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4919B2401DA795C200CF9978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4919B23F1DA795C200CF9978 /* Guitar Tabber.app */,
+				CD0370851DD56F60003585C4 /* Guitar Tabber Tests.xctest */,
+				CD0370991DD5E946003585C4 /* Guitar TabberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4919B2411DA795C200CF9978 /* Guitar Tabber */ = {
+			isa = PBXGroup;
+			children = (
+				49FCDE071DBB91E400D70B6E /* NoteRecogniser.swift */,
+				49FCDE081DBB91E400D70B6E /* Song.swift */,
+				49CE402B1DAB603B001E7425 /* GuitarTuner.swift */,
+				49CE402C1DAB603B001E7425 /* RawNote.swift */,
+				4919B2421DA795C200CF9978 /* AppDelegate.swift */,
+				4919B2441DA795C200CF9978 /* ViewController.swift */,
+				4919B2461DA795C200CF9978 /* Main.storyboard */,
+				49CE40351DAB9B36001E7425 /* TableViewCell.swift */,
+				4919B2491DA795C200CF9978 /* Assets.xcassets */,
+				4919B24B1DA795C200CF9978 /* LaunchScreen.storyboard */,
+				4919B24E1DA795C200CF9978 /* Info.plist */,
+				49CE40331DAB8991001E7425 /* TableViewController.swift */,
+				494298021DBE452200722340 /* Song_Page.swift */,
+				CD8C57F51DD49440003EBBA5 /* RecorderController.swift */,
+			);
+			path = "Guitar Tabber";
+			sourceTree = "<group>";
+		};
+		CD0370861DD56F60003585C4 /* Guitar Tabber Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0370871DD56F60003585C4 /* Guitar_Tabber_Tests.swift */,
+				CD03708F1DD56F8B003585C4 /* SongTests.swift */,
+				CD0370891DD56F60003585C4 /* Info.plist */,
+			);
+			path = "Guitar Tabber Tests";
+			sourceTree = "<group>";
+		};
+		D363061A686F09B94FAAFC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F367E12AD3BE5D6C1332CA0B /* Pods_Guitar_Tabber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4919B23E1DA795C200CF9978 /* Guitar Tabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4919B2511DA795C200CF9978 /* Build configuration list for PBXNativeTarget "Guitar Tabber" */;
+			buildPhases = (
+				51FFF3202D2B6F0599E637BE /* [CP] Check Pods Manifest.lock */,
+				4919B23B1DA795C200CF9978 /* Sources */,
+				4919B23C1DA795C200CF9978 /* Frameworks */,
+				4919B23D1DA795C200CF9978 /* Resources */,
+				97D0D2FF4232BED507260484 /* [CP] Embed Pods Frameworks */,
+				6F66860690C97536064E81FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guitar Tabber";
+			productName = "Guitar Tabber";
+			productReference = 4919B23F1DA795C200CF9978 /* Guitar Tabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0370841DD56F60003585C4 /* Guitar Tabber Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD03708C1DD56F60003585C4 /* Build configuration list for PBXNativeTarget "Guitar Tabber Tests" */;
+			buildPhases = (
+				CD0370811DD56F60003585C4 /* Sources */,
+				CD0370821DD56F60003585C4 /* Frameworks */,
+				CD0370831DD56F60003585C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD03708B1DD56F60003585C4 /* PBXTargetDependency */,
+			);
+			name = "Guitar Tabber Tests";
+			productName = "Guitar Tabber Tests";
+			productReference = CD0370851DD56F60003585C4 /* Guitar Tabber Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD0370981DD5E946003585C4 /* Guitar TabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0370A01DD5E946003585C4 /* Build configuration list for PBXNativeTarget "Guitar TabberTests" */;
+			buildPhases = (
+				CD0370951DD5E946003585C4 /* Sources */,
+				CD0370961DD5E946003585C4 /* Frameworks */,
+				CD0370971DD5E946003585C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7960111DDC61FE00D4D109 /* PBXTargetDependency */,
+			);
+			name = "Guitar TabberTests";
+			productName = "Guitar TabberTests";
+			productReference = CD0370991DD5E946003585C4 /* Guitar TabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4919B2371DA795C200CF9978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = EE4304;
+				TargetAttributes = {
+					4919B23E1DA795C200CF9978 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X7N3E43UP8;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					CD0370841DD56F60003585C4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4919B23E1DA795C200CF9978;
+					};
+					CD0370981DD5E946003585C4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X7N3E43UP8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4919B23E1DA795C200CF9978;
+					};
+				};
+			};
+			buildConfigurationList = 4919B23A1DA795C200CF9978 /* Build configuration list for PBXProject "Guitar Tabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4919B2361DA795C200CF9978;
+			productRefGroup = 4919B2401DA795C200CF9978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4919B23E1DA795C200CF9978 /* Guitar Tabber */,
+				CD0370841DD56F60003585C4 /* Guitar Tabber Tests */,
+				CD0370981DD5E946003585C4 /* Guitar TabberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4919B23D1DA795C200CF9978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4919B24D1DA795C200CF9978 /* LaunchScreen.storyboard in Resources */,
+				4919B24A1DA795C200CF9978 /* Assets.xcassets in Resources */,
+				4919B2481DA795C200CF9978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0370831DD56F60003585C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0370971DD5E946003585C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51FFF3202D2B6F0599E637BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F66860690C97536064E81FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar Tabber/Pods-Guitar Tabber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D0D2FF4232BED507260484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guitar Tabber/Pods-Guitar Tabber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4919B23B1DA795C200CF9978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE402E1DAB603B001E7425 /* RawNote.swift in Sources */,
+				49CE402D1DAB603B001E7425 /* GuitarTuner.swift in Sources */,
+				494298031DBE452200722340 /* Song_Page.swift in Sources */,
+				4919B2451DA795C200CF9978 /* ViewController.swift in Sources */,
+				49CE40361DAB9B36001E7425 /* TableViewCell.swift in Sources */,
+				49FCDE0A1DBB91E400D70B6E /* Song.swift in Sources */,
+				49CE40341DAB8991001E7425 /* TableViewController.swift in Sources */,
+				49FCDE091DBB91E400D70B6E /* NoteRecogniser.swift in Sources */,
+				4919B2431DA795C200CF9978 /* AppDelegate.swift in Sources */,
+				CD8C57F61DD49440003EBBA5 /* RecorderController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0370811DD56F60003585C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0370901DD56F8B003585C4 /* SongTests.swift in Sources */,
+				CD0370881DD56F60003585C4 /* Guitar_Tabber_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0370951DD5E946003585C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD03708B1DD56F60003585C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4919B23E1DA795C200CF9978 /* Guitar Tabber */;
+			targetProxy = CD03708A1DD56F60003585C4 /* PBXContainerItemProxy */;
+		};
+		CD7960111DDC61FE00D4D109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4919B23E1DA795C200CF9978 /* Guitar Tabber */;
+			targetProxy = CD7960101DDC61FE00D4D109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4919B2461DA795C200CF9978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4919B2471DA795C200CF9978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4919B24B1DA795C200CF9978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4919B24C1DA795C200CF9978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4919B24F1DA795C200CF9978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4919B2501DA795C200CF9978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4919B2521DA795C200CF9978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CAB7FD703F868DB1E2C7C4 /* Pods-Guitar Tabber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7N3E43UP8;
+				INFOPLIST_FILE = "Guitar Tabber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.ee4304.Guitar-Tabber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4919B2531DA795C200CF9978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB76213AB1C3921D506AF08 /* Pods-Guitar Tabber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7N3E43UP8;
+				INFOPLIST_FILE = "Guitar Tabber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.ee4304.Guitar-Tabber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD03708D1DD56F60003585C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Guitar Tabber Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.40088325.Guitar-Tabber-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Tabber.app/Guitar Tabber";
+			};
+			name = Debug;
+		};
+		CD03708E1DD56F60003585C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Guitar Tabber Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.40088325.Guitar-Tabber-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Tabber.app/Guitar Tabber";
+			};
+			name = Release;
+		};
+		CD0370A11DD5E946003585C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X7N3E43UP8;
+				INFOPLIST_FILE = "Guitar TabberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.40088325.Guitar-TabberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Tabber.app/Guitar Tabber";
+			};
+			name = Debug;
+		};
+		CD0370A21DD5E946003585C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X7N3E43UP8;
+				INFOPLIST_FILE = "Guitar TabberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.40088325.Guitar-TabberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Tabber.app/Guitar Tabber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4919B23A1DA795C200CF9978 /* Build configuration list for PBXProject "Guitar Tabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4919B24F1DA795C200CF9978 /* Debug */,
+				4919B2501DA795C200CF9978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4919B2511DA795C200CF9978 /* Build configuration list for PBXNativeTarget "Guitar Tabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4919B2521DA795C200CF9978 /* Debug */,
+				4919B2531DA795C200CF9978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD03708C1DD56F60003585C4 /* Build configuration list for PBXNativeTarget "Guitar Tabber Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD03708D1DD56F60003585C4 /* Debug */,
+				CD03708E1DD56F60003585C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0370A01DD5E946003585C4 /* Build configuration list for PBXNativeTarget "Guitar TabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0370A11DD5E946003585C4 /* Debug */,
+				CD0370A21DD5E946003585C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4919B2371DA795C200CF9978 /* Project object */;
+}
