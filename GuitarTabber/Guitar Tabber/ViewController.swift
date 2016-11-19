@@ -11,7 +11,6 @@ import UIKit
 import SFGaugeView
 
 class ViewController: UIViewController, TunerDelegate {
-    //test
     public var tuner: Tuner = Tuner()
     private var pitch: String = ""
     private var octave: Int = 0
